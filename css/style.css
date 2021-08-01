@@ -1,3 +1,111 @@
+body {
+  background-color: rgb(46, 39, 39);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+
+#quote {
+  position: fixed;
+  bottom: 25px;
+  text-align: center;
+}
+#clock {
+  margin-top: 100px;
+
+  font-size: 100px;
+}
+#quote {
+  color: rgb(62, 53, 164);
+  font-weight: 700;
+}
+#greeting {
+  font-size: 45px;
+  margin-top: -70px;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -10000;
+}
+.loginHeader {
+  text-align: center;
+  font-size: 600;
+}
+
+#login-form {
+  margin-top: 150px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#login-form input {
+  width: 500px;
+  height: 50px;
+  font-size: 50px;
+  background-color: transparent;
+  border-style: none;
+  border-bottom: solid white;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 63px;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#login-form button {
+  border-radius: 25%;
+  outline: none;
+  border-color: none;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.461);
+}
+
+#login-form button:focus {
+  outline: none;
+}
+
 .hidden {
   display: none;
+}
+
+li {
+  display: flex;
+  font-weight: 600;
+  font-size: 50px;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+#todo-form input {
+  width: 500px;
+  height: 50px;
+  font-size: 50px;
+  background-color: transparent;
+  border-style: none;
+  border-bottom: solid white;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+li div {
+  margin-left: 5px;
 }
